@@ -1,0 +1,71 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.lacafeteria:la-cafeteria-api >------------------
+[INFO] Building la-cafeteria-api 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ la-cafeteria-api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ la-cafeteria-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ la-cafeteria-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ la-cafeteria-api ---
+[INFO] skip non existing resourceDirectory C:\Users\24346\OneDrive\Escritorio\ll\la-cafeteria-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ la-cafeteria-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ la-cafeteria-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ la-cafeteria-api ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-20T10:35:48.995-06:00  INFO 23316 --- [           main] c.l.api.LaCafeteriaApplication           : Starting LaCafeteriaApplication using Java 17.0.16 with PID 23316 (C:\Users\24346\OneDrive\Escritorio\ll\la-cafeteria-api\target\classes started by 24346 in C:\Users\24346\OneDrive\Escritorio\ll\la-cafeteria-api)
+2026-03-20T10:35:48.996-06:00  INFO 23316 --- [           main] c.l.api.LaCafeteriaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T10:35:49.460-06:00  INFO 23316 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-20T10:35:49.528-06:00  INFO 23316 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 10 JPA repository interfaces.
+2026-03-20T10:35:49.890-06:00  INFO 23316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-20T10:35:49.897-06:00  INFO 23316 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T10:35:49.897-06:00  INFO 23316 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-20T10:35:49.943-06:00  INFO 23316 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T10:35:49.944-06:00  INFO 23316 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 918 ms
+2026-03-20T10:35:50.036-06:00  INFO 23316 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-20T10:35:50.066-06:00  INFO 23316 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-20T10:35:50.085-06:00  INFO 23316 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-20T10:35:50.217-06:00  INFO 23316 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-20T10:35:50.233-06:00  INFO 23316 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-20T10:35:50.357-06:00  INFO 23316 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4586a8aa
+2026-03-20T10:35:50.358-06:00  INFO 23316 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-20T10:35:50.415-06:00  WARN 23316 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-20T10:35:51.077-06:00  INFO 23316 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-20T10:35:51.122-06:00  INFO 23316 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-20T10:35:51.683-06:00  WARN 23316 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-20T10:35:52.011-06:00  INFO 23316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-20T10:35:52.018-06:00  INFO 23316 --- [           main] c.l.api.LaCafeteriaApplication           : Started LaCafeteriaApplication in 3.25 seconds (process running for 3.47)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:58 min
+[INFO] Finished at: 2026-03-20T10:39:45-06:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project la-cafeteria-api: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
