@@ -4,7 +4,6 @@ import com.lacafeteria.api.common.ApiResponse;
 import com.lacafeteria.api.dto.request.ClienteRequest;
 import com.lacafeteria.api.dto.request.LoginClienteRequest;
 import com.lacafeteria.api.dto.response.ClienteResponse;
-import com.lacafeteria.api.dto.response.LoginClienteResponse;
 import com.lacafeteria.api.service.ClienteService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
